@@ -18,7 +18,7 @@ Protocol (IP) as a standalone specification[^2]. An IPv4 address (in the
 case of v4) is built upon 32-bits, expressed in four numbers known as
 octets. Each octet is 8 bits i.e one byte.
 
-\![\](media/image1.png)
+![](media/image1.png)
 
 For a TCP/IP wide area network (WAN) to work efficiently as a collection
 of networks, the routers that pass packets of data between networks
@@ -83,7 +83,7 @@ There are 2 different networks here.
 For IPv4, a network may be characterized by its subnet mask or netmask
 yielding the routing prefix[^5].
 
-\![\](media/image2.png)
+![](media/image2.png)
 
 The network on the left has the mask: 255.255.255.0.
 
@@ -104,7 +104,7 @@ leaving the remaining part of the address, the 16 bits of octets 3 and
 4, for the subnet and host part. Class B is for networks with 256 to
 65,534 hosts. So we have the option to changes two 8 bits in range.
 
-\![\](media/level1.png)
+![](media/level1.png)
 
 # Level 2
 
@@ -269,7 +269,7 @@ reserved IPs. Some of the common reserved IPS are:
 
 127.0.0.0 – 127.255.255.255 🡺 127.x.x.x
 
-\![\](media/level2.png)
+![](media/level2.png)
 
 # Level 3
 
@@ -282,7 +282,7 @@ change when we use a switch.
 
 The IP of the devices can be between 104.198.58.1 and 104.198.58.126.
 
-\![\](media/level3.png)
+![](media/level3.png)
 
 # Level 4
 
@@ -299,7 +299,7 @@ R2. Interface R1 can have the IPs between 128 and 192. We can choose a
 mask for maximum 192 – 128 = 64 IP range. So we can make the mask
 255.255.255.192.
 
-\![\](media/level4.png)
+![](media/level4.png)
 
 # Level 5
 
@@ -319,13 +319,13 @@ can just set it to default or 0.0.0.0/0.
 The **next hop** is the address of the next router that you need to send
 the packages to in order to reach the destination-network.
 
-\![\](media/image3.png)
+![](media/image3.png)
 
 It has the network destination (which can be set to default or 0.0.0.0)
 and the gateway (next hop). Because the machines route to the router,
 the gateway will be the interface IP of the router.
 
-\![\](media/level5.png)
+![](media/level5.png)
 
 # Level 6:
 
@@ -355,7 +355,7 @@ the gateway will be the interface IP of the router.
   the internet also works like a router too. And the interface IP of the
   internet to send the information to the router is 163.172.250.1.
 
-\![\](media/level6.png)
+![](media/level6.png)
 
 # Level 7
 
@@ -378,7 +378,7 @@ have enough IP addresses for the devices
 /32: 255.255.255.255 =\> this mask also cannot be used because it does
 not have enough IP addresses for the devices
 
-\![\](media/level7.png)
+![](media/level7.png)
 
 # Level 8
 
@@ -405,7 +405,7 @@ not have enough IP addresses for the devices
 
   - 139.249.193.48 -139.249.193.63
 
-\![\](media/level8.png)
+![](media/level8.png)
 
 # Level 9
 
@@ -431,7 +431,7 @@ not have enough IP addresses for the devices
 - While doing those do not forget to change the IPs for the ones
   reserved for private networks and hosts have default destination.
 
-\![\](media/level9.png)
+![](media/level9.png)
 
 # Level 10
 
@@ -462,7 +462,7 @@ fill in the missing parts in that network.
 - R1 has the destination not defined for host H3. We are going to define
   according to what we set before: 131.45.86.192/30.
 
-\![\](media/level10.png)
+![](media/level10.png)
 
 [^1]: https://www.packetcoders.io/a-beginners-guide-to-subnetting/
 
